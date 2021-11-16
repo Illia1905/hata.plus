@@ -1,0 +1,285 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.corporation {
+    display: flex;
+    ;
+}
+
+.row {
+    display: flex;
+    margin: 0 -1.35%;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+.column {
+    margin: 1.25%;
+    width: 22.5%;
+    box-sizing: border-box;
+}
+
+.column phones {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.column cta {
+    border-width: 2px;
+    border-color: #fd8300;
+    border-radius: 10px;
+}
+
+.super_offer {
+    text-align: center;
+    background-image: url(../img/fon.png);
+    background-color: #000;
+    background-size: cover;
+    max-height: 200px;
+}
+
+.super_offer h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin: 1px;
+    padding:  30px
+}
+
+.super_offer p {
+    margin: 17px;
+}
+
+.anagraph {
+    max-width: 670px;
+    margin: 0 0px;
+    padding: 0 auto;
+}
+
+.anagraph a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.anagraph p {
+    width: 600px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.price {
+    font-size: 40px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.currency {
+    font-size: 24px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.top {
+    padding: 1px 0;
+    background-color: #1f1f56;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -12px;
+
+}
+
+.nav ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 12px;
+    padding: 1px;
+}
+
+.menu {}
+
+.phones,
+.emails {
+    padding-left: 47px;
+}
+
+.phones a,
+.emails a {
+    position: relative;
+}
+
+.phones a::before,
+.emails a::before {
+
+    content: '';
+    position: absolute;
+    left: -30px;
+    background: url(../img/);
+}
+
+.popular {
+
+    display: block;
+    display: flex;
+}
+
+.popular a {
+    text-decoration: none;
+}
+
+.popular h {
+    max-width: 100%;
+}
+
+.house1,
+.house2,
+.house3 {
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.house1 a,
+.house2 a,
+.house3 a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.house1 p,
+.house2 p,
+.house3 p {
+    width: 220px;
+    height: 53px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+
+}
+
+.categories {
+    width: 300px;
+}
+
+.categories h3 {
+    background-color: #1f1f56;
+    color: #fff;
+    margin: 0px;
+    padding: 15px;
+    padding-left: 15px;
+}
+
+.categories a {
+    text-decoration: none;
+
+}
+
+.categories ul {
+    list-style: none;
+}
+
+.outdoor_menu {
+    min-width: 2019px;
+
+}
+
+.outdoor_menu a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+
+}
+
+.indoor_menu a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.menu a {
+    font-style: 14px;
+    color: #b1b1d2;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    color: #fd8300;
+}
+
+.social a {
+    display: block;
+    background: url(../);
+}
+
+.down_menu {
+    background-color: #fff;
+    color: #ededf5;
+    display: flex;
+    background-color: #ededf5;
+}
+
+.footer_menu a {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    font-family: "Arial";
+    margin: 72.5px;
+}
+
+.down {
+    background-color: #dcdce6;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+}
