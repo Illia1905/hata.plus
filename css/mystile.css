@@ -59,7 +59,7 @@ body {
     font-weight: 700;
     font-family: "Roboto Slab";
     margin: 1px;
-    padding:  30px
+    padding: 30px
 }
 
 .super_offer p {
@@ -82,7 +82,7 @@ body {
 }
 
 .anagraph p {
-    width: 600px;
+    max-width: 600px;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
@@ -136,8 +136,6 @@ body {
     margin: 0 12px;
     padding: 1px;
 }
-
-.menu {}
 
 .phones,
 .emails {
