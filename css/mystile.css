@@ -26,6 +26,7 @@ body {
 .column {
     margin: 1.25%;
     width: 22.5%;
+    min-width: 219px;
     box-sizing: border-box;
 }
 
@@ -64,6 +65,10 @@ body {
 
 .super_offer p {
     margin: 17px;
+}
+
+.main {
+    max-width: 713px;
 }
 
 .anagraph {
@@ -190,7 +195,7 @@ body {
 .house1 p,
 .house2 p,
 .house3 p {
-    width: 220px;
+    max-width: 219px;
     height: 53px;
     font-size: 13px;
     line-height: 18px;
@@ -200,37 +205,40 @@ body {
 }
 
 .categories {
-    width: 300px;
+    width: 219px;
 }
 
 .categories h3 {
     background-color: #1f1f56;
     color: #fff;
-    margin: 0px;
+    margin: 0 0px;
     padding: 15px;
     padding-left: 15px;
 }
 
 .categories a {
     text-decoration: none;
+}
 
+.categories ul {
+    margin: 0;
+    padding: 0;
 }
 
 .categories ul {
     list-style: none;
 }
 
-.outdoor_menu {
-    min-width: 2019px;
-
-}
 
 .outdoor_menu a {
     font-size: 14px;
     line-height: 24px;
     color: #25252c;
     font-family: "Arial";
-
+    padding: 15px;
+    margin: 0 0px;
+    background-color: #e4e4ec;
+    display: block;
 }
 
 .indoor_menu a {
