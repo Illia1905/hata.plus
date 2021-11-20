@@ -121,6 +121,7 @@ body {
 .top {
     padding: 1px 0;
     background-color: #1f1f56;
+    display: flex;
 }
 
 .nav {
