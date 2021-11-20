@@ -26,7 +26,7 @@ body {
 .column {
     margin: 1.25%;
     width: 22.5%;
-    min-width: 219px;
+    max-width: 219px;
     box-sizing: border-box;
 }
 
@@ -119,7 +119,7 @@ body {
 }
 
 .top {
-    padding: 1px 0;
+    padding:  0;
     background-color: #1f1f56;
     display: flex;
 }
