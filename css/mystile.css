@@ -17,6 +17,7 @@ body {
 .row {
     display: flex;
     margin: 0 -1.25%;
+    align-items: center;
 }
 
 .row a {
@@ -50,6 +51,7 @@ body {
     background-color: #000;
     background-size: cover;
     max-height: 200px;
+    padding: 32px;
 }
 
 .super_offer h2 {
@@ -60,7 +62,7 @@ body {
     font-weight: 700;
     font-family: "Roboto Slab";
     margin: 1px;
-    padding: 30px
+
 }
 
 .super_offer p {
@@ -119,9 +121,8 @@ body {
 }
 
 .top {
-    padding:  0;
+    padding: 0;
     background-color: #1f1f56;
-    display: flex;
 }
 
 .nav {
@@ -205,9 +206,10 @@ body {
 
 }
 
-.categories {
-    width: 219px;
+.corporation {
+    justify-content: space-between;
 }
+
 
 .categories h3 {
     background-color: #1f1f56;
@@ -230,9 +232,9 @@ body {
     list-style: none;
 }
 
-.outdoor_menu{
-max-width: 219px;
-} 
+.outdoor_menu {
+    max-width: 219px;
+}
 
 .outdoor_menu a {
     font-size: 14px;
@@ -271,10 +273,11 @@ max-width: 219px;
 }
 
 .down_menu {
-    background-color: #fff;
-    color: #ededf5;
     display: flex;
-    background-color: #ededf5;
+    min-width: 90px;
+}
+
+.down_menu ul {
 }
 
 .footer_menu a {
@@ -283,6 +286,10 @@ max-width: 219px;
     color: #666666;
     font-family: "Arial";
     margin: 72.5px;
+}
+
+.bottom {
+    background-color: #ededf5;
 }
 
 .down {
