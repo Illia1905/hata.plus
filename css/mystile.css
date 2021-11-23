@@ -16,7 +16,7 @@ body {
 
 .row {
     display: flex;
-    margin: 0 -1.35%;
+    margin: 0 -1.25%;
 }
 
 .row a {
@@ -26,7 +26,7 @@ body {
 .column {
     margin: 1.25%;
     width: 22.5%;
-    max-width: 219px;
+    min-width: 219px;
     box-sizing: border-box;
 }
 
@@ -230,6 +230,9 @@ body {
     list-style: none;
 }
 
+.outdoor_menu{
+max-width: 219px;
+} 
 
 .outdoor_menu a {
     font-size: 14px;
