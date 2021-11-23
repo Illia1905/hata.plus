@@ -44,7 +44,11 @@ body {
     border-color: #fd8300;
     border-radius: 10px;
 }
-
+.cta {
+    border-width: 2px;
+    border-color: #fd8300;
+    border-radius: 5px 5px 5px 5px;
+}
 .super_offer {
     text-align: center;
     background-image: url(../img/fon.png);
