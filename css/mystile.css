@@ -18,6 +18,7 @@ body {
     display: flex;
     margin: 0 -1.25%;
     align-items: center;
+    justify-content: space-between;
 }
 
 .row a {
@@ -61,7 +62,6 @@ body {
 .super_offer h2 {
     font-size: 30px;
     letter-spacing: 2px;
-    line-height: 24px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
@@ -108,12 +108,13 @@ body {
     text-align: center;
 }
 
-.price {
+p.price {
     font-size: 40px;
     line-height: 24px;
     color: #fd8300;
     font-weight: bold;
     font-family: "Arial";
+    margin: 0;
 }
 
 .currency {
@@ -181,16 +182,12 @@ body {
     max-width: 100%;
 }
 
-.house1,
-.house2,
-.house3 {
+.house {
     width: 100%;
     margin: 20px 10px;
 }
 
-.house1 a,
-.house2 a,
-.house3 a {
+.house a {
     font-size: 14px;
     line-height: 24px;
     color: #1f1f56;
@@ -198,10 +195,8 @@ body {
     font-family: "Arial";
 }
 
-.house1 p,
-.house2 p,
-.house3 p {
-    max-width: 219px;
+.house p {
+   max-width: 219px;
     height: 53px;
     font-size: 13px;
     line-height: 18px;
