@@ -244,8 +244,13 @@ p.price {
     margin: 0 0px;
     background-color: #e4e4ec;
     display: block;
+    text-transform: uppercase;
 }
-
+.outdoor_menu a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fd8300;
+}
 .indoor_menu a {
     font-size: 14px;
     line-height: 24px;
