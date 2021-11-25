@@ -11,7 +11,7 @@ body {
 
 .corporation {
     display: flex;
-    ;
+    
 }
 
 .row {
@@ -254,12 +254,12 @@ p.price {
 }
 
 .menu a {
-    font-style: 14px;
+    font-style: italic;
     color: #b1b1d2;
     letter-spacing: 2px;
     line-height: 24px;
     text-decoration: none;
-
+    font-size: 14px;
 }
 
 .menu a:hover {
