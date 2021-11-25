@@ -1,6 +1,6 @@
 body {
     font-family: "Arial", sans-serif;
-    margin: 10px;
+    margin: 0px;
     background-color: #fff;
 }
 
@@ -276,8 +276,7 @@ p.price {
     min-width: 90px;
 }
 
-.down_menu ul {
-}
+
 
 .footer_menu a {
     font-size: 14px;
