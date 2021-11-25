@@ -11,7 +11,7 @@ body {
 
 .corporation {
     display: flex;
-    
+
 }
 
 .row {
@@ -45,11 +45,13 @@ body {
     border-color: #fd8300;
     border-radius: 10px;
 }
+
 .cta {
     border-width: 2px;
     border-color: #fd8300;
     border-radius: 5px 5px 5px 5px;
 }
+
 .super_offer {
     text-align: center;
     background-image: url(../img/fon.png);
@@ -137,6 +139,14 @@ p.price {
 
 }
 
+.menu {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+    font-family: "Arial";
+}
+
 .nav ul {
     margin: 0;
     padding-left: 0;
@@ -157,6 +167,21 @@ p.price {
 .phones a,
 .emails a {
     position: relative;
+}
+
+.phones a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.emails a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
 }
 
 .phones a::before,
@@ -196,7 +221,7 @@ p.price {
 }
 
 .house p {
-   max-width: 219px;
+    max-width: 219px;
     height: 53px;
     font-size: 13px;
     line-height: 18px;
@@ -244,18 +269,25 @@ p.price {
     margin: 0 0px;
     background-color: #e4e4ec;
     display: block;
-    text-transform: uppercase;
 }
+
 .outdoor_menu a:hover {
     text-decoration: none;
     color: #fff;
     background-color: #fd8300;
 }
+
 .indoor_menu a {
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
+}
+
+.indoor_menu a:hover {
+    text-decoration: none;
+    color: #666666;
+    background-color: #cecedd;
 }
 
 .menu a {
@@ -288,7 +320,11 @@ p.price {
     line-height: 26px;
     color: #666666;
     font-family: "Arial";
-    margin: 72.5px;
+    margin: 0;
+}
+
+.footer_menu ul {
+    list-style: none;
 }
 
 .bottom {
