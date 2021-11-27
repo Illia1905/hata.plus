@@ -2,6 +2,14 @@ body {
     font-family: "Arial", sans-serif;
     margin: 0px;
     background-color: #fff;
+    cursor: url('cursor.cur'),
+        auto;
+}
+
+body a {
+    cursor: url('cursor.cur'),
+        auto;
+
 }
 
 .wrapper {
@@ -17,13 +25,10 @@ body {
 .row {
     display: flex;
     margin: 0 -1.25%;
-    align-items: center;
     justify-content: space-between;
 }
 
-.row a {
-    text-decoration: none;
-}
+
 
 .column {
     margin: 1.25%;
@@ -46,11 +51,15 @@ body {
     border-radius: 10px;
 }
 
-.cta {
-    border-width: 2px;
-    border-color: #fd8300;
-    border-radius: 5px 5px 5px 5px;
+.cta a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
 }
+
+a:hover {}
 
 .super_offer {
     text-align: center;
@@ -94,6 +103,11 @@ body {
     font-family: "Arial";
 }
 
+.anagraph a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
 .anagraph p {
     max-width: 600px;
     font-size: 14px;
@@ -132,6 +146,15 @@ p.price {
     background-color: #1f1f56;
 }
 
+.top-menu {
+    text-decoration: none;
+    align-items: center;
+}
+
+.top-menu a {
+    text-decoration: none;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -167,9 +190,10 @@ p.price {
 .phones a,
 .emails a {
     position: relative;
+    margin: 0;
 }
 
-.phones a {
+. .phones a {
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
@@ -193,24 +217,26 @@ p.price {
     background: url(../img/);
 }
 
-.popular {
+.phones p .popular {
 
     display: block;
     display: flex;
 }
 
+.popular {
+    display: flex;
+}
+
 .popular a {
     text-decoration: none;
+    margin: 12px;
 }
 
 .popular h {
     max-width: 100%;
 }
 
-.house {
-    width: 100%;
-    margin: 20px 10px;
-}
+.house {}
 
 .house a {
     font-size: 14px;
@@ -258,6 +284,7 @@ p.price {
 
 .outdoor_menu {
     max-width: 219px;
+    margin-top: 16px;
 }
 
 .outdoor_menu a {
@@ -291,7 +318,6 @@ p.price {
 }
 
 .menu a {
-    font-style: italic;
     color: #b1b1d2;
     letter-spacing: 2px;
     line-height: 24px;
@@ -313,19 +339,20 @@ p.price {
     min-width: 90px;
 }
 
-
-
+.down_menu,
 .footer_menu a {
     font-size: 14px;
     line-height: 26px;
     color: #666666;
     font-family: "Arial";
     margin: 0;
+    letter-spacing: none;
 }
 
-.footer_menu ul {
-    list-style: none;
+.down_menu a {
+    text-decoration: none;
 }
+
 
 .bottom {
     background-color: #ededf5;
