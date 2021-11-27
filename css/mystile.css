@@ -46,9 +46,7 @@ body a {
 }
 
 .column cta {
-    border-width: 2px;
-    border-color: #fd8300;
-    border-radius: 10px;
+    
 }
 
 .cta a {
@@ -57,9 +55,12 @@ body a {
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
+    border-width: 2px;
+    border-color: #fd8300;
+    border-radius: 10px;
 }
 
-a:hover {}
+
 
 .super_offer {
     text-align: center;
@@ -193,12 +194,14 @@ p.price {
     margin: 0;
 }
 
-. .phones a {
+.phones a {
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
+    border-radius: 5px 5px 5px 5px;
+    border-color: #fd8300;
 }
 
 .emails a {
@@ -216,7 +219,9 @@ p.price {
     left: -30px;
     background: url(../img/);
 }
-
+.mailto {
+    text-decoration: underline;
+}
 .phones p .popular {
 
     display: block;
