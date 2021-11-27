@@ -45,21 +45,28 @@ body a {
     font-family: "Arial";
 }
 
-.column cta {
-    
-}
+
 
 .cta a {
+    padding: 14px 32px;
     font-size: 16px;
     line-height: 24px;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
-    border-width: 2px;
-    border-color: #fd8300;
-    border-radius: 10px;
+    border: 2px solid #fd8300;
+    border-radius: 25px;
 }
 
+.cta a:hover {
+    border: 1px solid #cecedd;
+    background-color: #fd8300;
+    color: #fff;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.3) ;
+    box-shadow: inset 5px 5px 10px rgba(255,255,255,0),
+    inset -5px -5px 10px rgba(0,0,0,0.3),
+    0 0 5px -5px rgba(0,0,0,1);
+}
 
 
 .super_offer {
@@ -241,28 +248,31 @@ p.price {
     max-width: 100%;
 }
 
-.house {}
-
-.house a {
+.house h3{
     font-size: 14px;
     line-height: 24px;
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
+    margin: 10px 0 0 0; 
+}
+
+a .house:hover>h3 {
+    text-decoration: underline;
 }
 
 .house p {
+    margin: 0;
     max-width: 219px;
-    height: 53px;
     font-size: 13px;
     line-height: 18px;
     color: #9999a6;
     font-family: "Arial";
-
 }
 
 .corporation {
     justify-content: space-between;
+    padding-top: 35px;
 }
 
 
@@ -291,7 +301,9 @@ p.price {
     max-width: 219px;
     margin-top: 16px;
 }
-
+.outdoor_menu li:not(:first-child) a {
+    border-top: 1px solid #cdcddd;
+}
 .outdoor_menu a {
     font-size: 14px;
     line-height: 24px;
@@ -301,14 +313,35 @@ p.price {
     margin: 0 0px;
     background-color: #e4e4ec;
     display: block;
+    position: relative;
 }
-
-.outdoor_menu a:hover {
+.outdoor_menu>li>a:after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #666666;
+    border-right: 2px solid #666666;
+    right: 15px;
+    top: 22px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+}
+.outdoor_menu>li:hover>a:after {
+    transform: rotate(135deg);
+    border-color: #fff; 
+}
+.outdoor_menu>li:hover>a {
     text-decoration: none;
     color: #fff;
     background-color: #fd8300;
+    
 }
-
+.outdoor_menu>li:hover>.indoor_menu{
+    display: block;
+}
+.indoor_menu {
+    display: none;
+}
 .indoor_menu a {
     font-size: 14px;
     line-height: 24px;
@@ -357,13 +390,16 @@ p.price {
 .down_menu a {
     text-decoration: none;
 }
-
+.down_menu ul {
+    list-style: none;
+}
 
 .bottom {
     background-color: #ededf5;
 }
 
 .down {
+    padding: 13px;
     background-color: #dcdce6;
     font-size: 13px;
     line-height: 18px;
