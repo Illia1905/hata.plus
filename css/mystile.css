@@ -37,7 +37,7 @@ body a {
     box-sizing: border-box;
 }
 
-.column phones {
+.column {
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
@@ -46,6 +46,9 @@ body a {
 }
 
 
+.cta {
+    text-align: right;
+}
 
 .cta a {
     padding: 14px 32px;
@@ -62,10 +65,10 @@ body a {
     border: 1px solid #cecedd;
     background-color: #fd8300;
     color: #fff;
-    box-shadow: 10px 5px 10px rgba(0,0,0,0.3) ;
-    box-shadow: inset 5px 5px 10px rgba(255,255,255,0),
-    inset -5px -5px 10px rgba(0,0,0,0.3),
-    0 0 5px -5px rgba(0,0,0,1);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0),
+        inset -5px -5px 10px rgba(0, 0, 0, 0.3),
+        0 0 5px -5px rgba(0, 0, 0, 1);
 }
 
 
@@ -81,11 +84,10 @@ body a {
 .super_offer h2 {
     font-size: 30px;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #fff;
     font-weight: 700;
     font-family: "Roboto Slab";
     margin: 1px;
-
 }
 
 .super_offer p {
@@ -99,7 +101,9 @@ body a {
 .anagraph {
     max-width: 670px;
     margin: 0 0px;
-    padding: 0 auto;
+    padding: 0 0 15px 0;
+
+
 }
 
 .anagraph a {
@@ -113,11 +117,10 @@ body a {
 
 .anagraph a:hover {
     text-decoration: none;
-    color: #666666;
+    color: #666;
 }
 
 .anagraph p {
-    max-width: 600px;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
@@ -226,9 +229,11 @@ p.price {
     left: -30px;
     background: url(../img/);
 }
+
 .mailto {
     text-decoration: underline;
 }
+
 .phones p .popular {
 
     display: block;
@@ -237,6 +242,7 @@ p.price {
 
 .popular {
     display: flex;
+    padding: 0 0 25px 0;
 }
 
 .popular a {
@@ -248,13 +254,13 @@ p.price {
     max-width: 100%;
 }
 
-.house h3{
+.house h3 {
     font-size: 14px;
     line-height: 24px;
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
-    margin: 10px 0 0 0; 
+    margin: 10px 0 0 0;
 }
 
 a .house:hover>h3 {
@@ -300,10 +306,17 @@ a .house:hover>h3 {
 .outdoor_menu {
     max-width: 219px;
     margin-top: 16px;
+
 }
+
+.outdoor_menu ul {
+    border-radius: 20px 25px 30px 35px;
+}
+
 .outdoor_menu li:not(:first-child) a {
     border-top: 1px solid #cdcddd;
 }
+
 .outdoor_menu a {
     font-size: 14px;
     line-height: 24px;
@@ -315,6 +328,7 @@ a .house:hover>h3 {
     display: block;
     position: relative;
 }
+
 .outdoor_menu>li>a:after {
     content: "";
     position: absolute;
@@ -326,22 +340,28 @@ a .house:hover>h3 {
     height: 5px;
     transform: rotate(45deg);
 }
+
 .outdoor_menu>li:hover>a:after {
     transform: rotate(135deg);
-    border-color: #fff; 
+    border-color: #fff;
 }
+
 .outdoor_menu>li:hover>a {
     text-decoration: none;
     color: #fff;
     background-color: #fd8300;
-    
+
 }
-.outdoor_menu>li:hover>.indoor_menu{
+
+.outdoor_menu>li:hover>.indoor_menu {
     display: block;
 }
+
 .indoor_menu {
     display: none;
+    padding-left: 15px;
 }
+
 .indoor_menu a {
     font-size: 14px;
     line-height: 24px;
@@ -353,6 +373,7 @@ a .house:hover>h3 {
     text-decoration: none;
     color: #666666;
     background-color: #cecedd;
+    padding-left: 15px;
 }
 
 .menu a {
@@ -390,8 +411,10 @@ a .house:hover>h3 {
 .down_menu a {
     text-decoration: none;
 }
+
 .down_menu ul {
     list-style: none;
+    padding: 0;
 }
 
 .bottom {
