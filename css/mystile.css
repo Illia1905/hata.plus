@@ -94,6 +94,14 @@ body a {
     margin: 17px;
 }
 
+.currency p {
+    font-size: 24px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
 .main {
     max-width: 713px;
 }
@@ -196,14 +204,17 @@ p.price {
 .phones,
 .emails {
     padding-left: 47px;
+    margin: 0;
 }
 
 .phones a,
 .emails a {
     position: relative;
-    margin: 0;
 }
-
+.phones p,
+.emails p {
+    margin: 10px 0 10px 0;
+}
 .phones a {
     font-size: 18px;
     line-height: 24px;
@@ -396,6 +407,8 @@ a .house:hover>h3 {
 .down_menu {
     display: flex;
     min-width: 90px;
+    padding:20px 0 20px 0;
+    margin: 0;
 }
 
 .down_menu,
