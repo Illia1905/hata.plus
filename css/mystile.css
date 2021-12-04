@@ -100,7 +100,10 @@ sup {
 .main {
     max-width: 713px;
 }
-
+.main h2,
+.main h1 {
+    font-family: "Roboto Slab";
+}
 .anagraph {
     max-width: 670px;
     margin: 0 0px;
@@ -161,8 +164,8 @@ p.price {
 }
 
 .top-menu {
-    text-decoration: none;
     align-items: center;
+    padding: 20px;
 }
 
 .top-menu a {
@@ -210,7 +213,7 @@ a.fb {
 a:hover.fb {
     height: 19px;
     width: 10px;
-    background-position: 0 -18px;
+    background-position: 0 -19px;
 }
 
 a.tw {
@@ -289,9 +292,9 @@ a:hover.inst {
 
 }
 
-.top-menu a::before {
+.top-menu a::before,
+.down_menu a::before {
     background-image: url(../img/sprite.png);
-    top: ;
 }
 
 .tel {
@@ -301,6 +304,7 @@ a:hover.inst {
     content: "";
     height: 17px;
     width: 16px;
+    top: 2px;
     background-position: -62px 0;
     position: absolute;
 }
@@ -313,6 +317,7 @@ a:hover.inst {
 .mailto::before {
     height: 13px;
     width: 17px;
+    top: 2px;
     background-position: -84px -2px;
     position: absolute;
 }
@@ -320,6 +325,7 @@ a:hover.inst {
 .skype::before {
     height: 19px;
     width: 18px;
+    top: 0;
     background-position: -62px -21px;
 }
 
@@ -391,6 +397,7 @@ a .house:hover>h3 {
 
 .radius h3 {
     border-radius: 3px 3px 0 0;
+    font-family: "Roboto Slab";
 }
 
 .radius nav {
@@ -402,7 +409,7 @@ a .house:hover>h3 {
     max-width: 219px;
 }
 
-.outdoor_menu li:not(:first-child) a {
+.outdoor_menu>li:not(:first-child)>a {
     border-top: 1px solid #cdcddd;
 }
 
@@ -515,6 +522,9 @@ a .house:hover>h3 {
 .down_menu ul {
     list-style: none;
     padding: 0;
+}
+.down menu a::before {
+    background-image: url(../img/sprite.png);
 }
 
 .bottom {
