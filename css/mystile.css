@@ -12,6 +12,10 @@ body a {
 
 }
 
+sup {
+    font-size: 0.6em;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -36,15 +40,6 @@ body a {
     min-width: 219px;
     box-sizing: border-box;
 }
-
-.column {
-    font-size: 18px;
-    line-height: 24px;
-    color: #25252c;
-    font-weight: bold;
-    font-family: "Arial";
-}
-
 
 .cta {
     text-align: right;
@@ -154,7 +149,7 @@ p.price {
 
 .currency {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1px;
     color: #fd8300;
     font-weight: bold;
     font-family: "Arial";
@@ -178,6 +173,7 @@ p.price {
     display: flex;
     justify-content: space-between;
     margin: 0 -12px;
+    padding: 10px;
 
 }
 
@@ -201,6 +197,46 @@ p.price {
     padding: 1px;
 }
 
+.network a {
+    background-image: url(../img/sprite.png);
+    display: block;
+}
+
+a.fb {
+    height: 18px;
+    width: 10px;
+}
+
+a:hover.fb {
+    height: 19px;
+    width: 10px;
+    background-position: 0 -18px;
+}
+
+a.tw {
+    height: 15px;
+    width: 18px;
+    background-position: -39px -2px;
+}
+
+a:hover.tw {
+    height: 15px;
+    width: 18px;
+    background-position: -38px -22px;
+}
+
+a.inst {
+    height: 19px;
+    width: 19px;
+    background-position: -16px 0;
+}
+
+a:hover.inst {
+    height: 19px;
+    width: 19px;
+    background-position: -16px -21px;
+}
+
 .phones,
 .emails {
     padding-left: 47px;
@@ -211,18 +247,25 @@ p.price {
 .emails a {
     position: relative;
 }
+
 .phones p,
 .emails p {
     margin: 10px 0 10px 0;
 }
+
+.emails p {}
+
 .phones a {
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
-    border-radius: 5px 5px 5px 5px;
-    border-color: #fd8300;
+}
+
+.phones a:hover {
+    text-decoration: underline;
+    color: #fd8300;
 }
 
 .emails a {
@@ -232,20 +275,56 @@ p.price {
     font-family: "Arial";
 }
 
+.emails a:hover {
+    text-decoration: none;
+    color: #fd8300;
+}
+
 .phones a::before,
 .emails a::before {
 
     content: '';
     position: absolute;
     left: -30px;
-    background: url(../img/);
+
+}
+
+.top-menu a::before {
+    background-image: url(../img/sprite.png);
+    top: ;
+}
+
+.tel {
+    position: relative;
+}
+.tel::before {
+    content: "";
+    height: 17px;
+    width: 16px;
+    background-position: -62px 0;
+    position: absolute;
 }
 
 .mailto {
     text-decoration: underline;
+    position: relative;
 }
 
-.phones p .popular {
+.mailto::before {
+    height: 13px;
+    width: 17px;
+    background-position: -84px -2px;
+    position: absolute;
+}
+
+.skype::before {
+    height: 19px;
+    width: 18px;
+    background-position: -62px -21px;
+}
+
+.phones p,
+.popular {
 
     display: block;
     display: flex;
@@ -296,9 +375,8 @@ a .house:hover>h3 {
 .categories h3 {
     background-color: #1f1f56;
     color: #fff;
-    margin: 0 0px;
+    margin: 0;
     padding: 15px;
-    padding-left: 15px;
 }
 
 .categories a {
@@ -308,20 +386,20 @@ a .house:hover>h3 {
 .categories ul {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-.categories ul {
-    list-style: none;
+.radius h3 {
+    border-radius: 3px 3px 0 0;
+}
+
+.radius nav {
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
 }
 
 .outdoor_menu {
     max-width: 219px;
-    margin-top: 16px;
-
-}
-
-.outdoor_menu ul {
-    border-radius: 20px 25px 30px 35px;
 }
 
 .outdoor_menu li:not(:first-child) a {
@@ -370,7 +448,7 @@ a .house:hover>h3 {
 
 .indoor_menu {
     display: none;
-    padding-left: 15px;
+
 }
 
 .indoor_menu a {
@@ -378,13 +456,13 @@ a .house:hover>h3 {
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
+    padding-left: 30px;
 }
 
 .indoor_menu a:hover {
     text-decoration: none;
     color: #666666;
     background-color: #cecedd;
-    padding-left: 15px;
 }
 
 .menu a {
@@ -407,8 +485,17 @@ a .house:hover>h3 {
 .down_menu {
     display: flex;
     min-width: 90px;
-    padding:20px 0 20px 0;
+    padding: 20px 0 20px 0;
     margin: 0;
+}
+
+.footer_menu li {
+    margin: 0 0 5px 0;
+}
+
+.footer_menu a:hover {
+    color: #fc8a10;
+    text-decoration: underline;
 }
 
 .down_menu,
