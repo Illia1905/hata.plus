@@ -43,9 +43,11 @@ sup {
 
 .cta {
     text-align: right;
+
 }
 
 .cta a {
+    display: inline-block;
     padding: 14px 32px;
     font-size: 16px;
     line-height: 24px;
@@ -53,7 +55,7 @@ sup {
     font-weight: bold;
     font-family: "Arial";
     border: 2px solid #fd8300;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 .cta a:hover {
@@ -100,10 +102,12 @@ sup {
 .main {
     max-width: 713px;
 }
+
 .main h2,
 .main h1 {
     font-family: "Roboto Slab";
 }
+
 .anagraph {
     max-width: 670px;
     margin: 0 0px;
@@ -165,7 +169,7 @@ p.price {
 
 .top-menu {
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .top-menu a {
@@ -196,7 +200,7 @@ p.price {
 
 .nav li {
     display: inline-block;
-    margin: 0 12px;
+    margin-right: 24px;
     padding: 1px;
 }
 
@@ -206,7 +210,7 @@ p.price {
 }
 
 a.fb {
-    height: 18px;
+    height: 19px;
     width: 10px;
 }
 
@@ -244,6 +248,12 @@ a:hover.inst {
 .emails {
     padding-left: 47px;
     margin: 0;
+}
+
+.pal {
+    width: 1px;
+    height: 51px;
+    background-color: #e4e4ec;
 }
 
 .phones a,
@@ -300,6 +310,7 @@ a:hover.inst {
 .tel {
     position: relative;
 }
+
 .tel::before {
     content: "";
     height: 17px;
@@ -478,6 +489,7 @@ a .house:hover>h3 {
     line-height: 24px;
     text-decoration: none;
     font-size: 14px;
+
 }
 
 .menu a:hover {
@@ -523,6 +535,7 @@ a .house:hover>h3 {
     list-style: none;
     padding: 0;
 }
+
 .down menu a::before {
     background-image: url(../img/sprite.png);
 }
