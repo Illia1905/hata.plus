@@ -26,6 +26,10 @@ sup {
 
 }
 
+.toppy {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
 .row {
     display: flex;
     margin: 0 -1.25%;
@@ -249,10 +253,10 @@ a:hover.inst {
     position: relative;
     padding-left: 47px;
     margin: 0;
-    
+
 }
 
-.pal::before{
+.pal::before {
     content: "";
     top: 14px;
     left: 230px;
@@ -427,8 +431,8 @@ a .house:hover>h3 {
 }
 
 .outdoor_menu>li:not(:first-child)>a {
-    border-top: 1px solid #cdcddd;
-}
+   border-top: 1px solid #cdcddd;
+} 
 
 .outdoor_menu a {
     font-size: 14px;
@@ -559,3 +563,68 @@ a .house:hover>h3 {
     font-family: "Arial";
     text-align: center;
 }
+.center {
+    margin-top: 45px;
+}
+.center p {
+    width: 942px;
+    height: 56px;
+    font-size: 14px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.center h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.table table {
+    border-collapse: collapse;
+    max-width: 960px;
+    width: 100%;
+}
+   
+.table thead {
+    background-color: #1f1f56;
+    color: #fff;
+}
+.table th,
+.table td {
+    text-align: left;
+    padding: 10px 0 10px 20px;
+}
+.call-me {
+    margin: 10px 0 40px 0;
+}
+.call-me p {
+    margin: 0;
+    height: 56px;
+    font-size: 13px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.call-me a {
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+h2.row {
+    margin-top: 50px;
+}
+.table tbody {
+    background-color: #e4e4ec;
+}
+.table tbody tr:hover {
+    background-color: #fd8300;
+    color: #fff;
+}
+.table>td:not(:first-child)>a {
+    border-top: 1px solid #cdcddd;
+ } 
