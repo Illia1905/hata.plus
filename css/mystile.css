@@ -5,13 +5,19 @@ body {
     cursor: url('cursor.cur'),
         auto;
 }
-
+th,
+h2 {
+    font-family: "Roboto Slab";
+}
 body a {
     cursor: url('cursor.cur'),
         auto;
 
 }
-
+hr{
+    border: none;
+    border-top: 1px solid #000;
+}
 sup {
     font-size: 0.6em;
 }
@@ -27,7 +33,7 @@ sup {
 }
 
 .toppy {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .row {
@@ -581,6 +587,10 @@ a .house:hover>h3 {
     font-weight: 700;
     font-family: "Roboto Slab";
 }
+.table {
+    border-radius: 2px 2px 2px 2px ;
+    overflow: hidden;
+}
 .table table {
     border-collapse: collapse;
     max-width: 960px;
@@ -625,6 +635,7 @@ h2.row {
     background-color: #fd8300;
     color: #fff;
 }
-.table>td:not(:first-child)>a {
+.table tr+tr td {
     border-top: 1px solid #cdcddd;
  } 
+ 
