@@ -642,5 +642,108 @@ h2.row {
 }
 .table tr+tr td {
     border-top: 1px solid #cdcddd;
- } 
+ }
  
+.contact {
+    display: block;
+    display: flex;
+}
+.calonka p {
+    float: left;
+}
+.column-1 {
+    max-width: 240px;
+    align-items: left;
+}
+.phone,
+.post {
+    position: relative;
+    margin: 0;
+}
+.phone p {
+    display: block;
+    display: flex;
+}
+
+.phone a,
+.post a {
+    position: relative;
+}
+
+.phone a {
+    font-size: 18px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+.phone a:hover {
+    text-decoration: underline;
+    color: #fd8300;
+}
+
+.phone,
+.post {
+    position: relative;
+    margin: 0;
+
+}
+
+
+
+.phone p,
+.post p {
+    margin: 10px 0 10px 0;
+}
+.post a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+}
+
+.post a:hover {
+    text-decoration: none;
+    color: #fd8300;
+}
+.mail {
+    text-decoration: underline;
+    position: relative;
+}
+
+.col {
+    margin: 0;
+    padding: -20px;
+    width: 22.5%;
+    min-width: 219px;
+    box-sizing: border-box;
+}
+.form  {
+    width: 466px;
+}
+.form table th {
+    min-width: 230px;
+}
+.www {
+    min-width: 465px;
+}
+.www input {
+    min-width: 100%;
+}
+.button {
+    padding: 10px 25px 10px 25px;
+    background-color: #fd8300;
+    border: 2px solid #fd8300;
+    color: #fff;
+    border-radius: 25px;
+}
+.button p:hover {
+    color: #000;
+}
+.form-bottom {
+    display: flex;
+    align-items: center;
+}
+.form-bottom input {
+    margin: 10px;
+}
