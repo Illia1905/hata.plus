@@ -770,17 +770,22 @@ h2.row {
 }
 
 .form {
-    width: 50%;
+    max-width: 50%;
 }
 
 .form table th {
     min-width: 230px;
 }
 
-.www {
+.www{
     min-width: 465px;
 }
-
+.navigator {
+    display: flex;
+}
+.gps iframe {
+    max-width: 50%;
+}
 input.www {
     min-width: 100%;
 }
