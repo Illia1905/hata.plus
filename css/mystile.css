@@ -648,6 +648,15 @@ h2.row {
     display: block;
     display: flex;
 }
+.mar {
+    padding: 10px 0 10px 0;
+}
+.columns p {
+    margin: 0;
+}
+.columns-0  {
+    margin-left: 60px;
+} 
 .calonka p {
     float: left;
 }
@@ -686,10 +695,9 @@ h2.row {
 .post {
     position: relative;
     margin: 0;
+    padding: 0;
 
 }
-
-
 
 .phone p,
 .post p {
@@ -710,7 +718,6 @@ h2.row {
     text-decoration: underline;
     position: relative;
 }
-
 .col {
     margin: 0;
     padding: -20px;
