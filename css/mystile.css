@@ -19,12 +19,6 @@ h2 {
     font-family: "Roboto Slab";
 }
 
-body a {
-    cursor: url('cursor.cur'),
-        auto;
-
-}
-
 hr {
     border: none;
     border-top: 1px solid #cdcddd;
@@ -791,8 +785,12 @@ input.www  {
     border-radius: 25px;
 }
 
-.button p:hover {
-    color: #000;
+input:hover.button  {
+    background-color: #fd8300;
+    color: #fff;
+    box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0),
+        inset -5px -5px 10px rgba(0, 0, 0, 0.3),
+        0 0 5px -5px rgba(0, 0, 0, 1);
 }
 
 .form-bottom {
