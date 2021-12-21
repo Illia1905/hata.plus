@@ -15,7 +15,8 @@ body label {
 }
 
 th,
-h2 {
+h2,
+h4 {
     font-family: "Roboto Slab";
 }
 
@@ -673,6 +674,13 @@ h2.row {
     display: flex;
 }
 
+.contact p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
 .mar {
     padding: 10px 0 10px 0;
 }
@@ -773,7 +781,7 @@ h2.row {
     min-width: 465px;
 }
 
-input.www  {
+input.www {
     min-width: 100%;
 }
 
@@ -785,7 +793,7 @@ input.www  {
     border-radius: 25px;
 }
 
-input:hover.button  {
+input:hover.button {
     background-color: #fd8300;
     color: #fff;
     box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0),
