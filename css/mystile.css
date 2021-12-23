@@ -694,7 +694,7 @@ h2.row {
 .contact {
     display: block;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contact p {
@@ -705,7 +705,7 @@ h2.row {
 }
 
 .h4 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 4px;
 }
 
 .mar {
@@ -826,9 +826,9 @@ input.my-check {
 }
 
 .navigator {
-    padding-top: 50px;
+    padding-top: 25px;
     display: flex;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
 }
 
 .gps iframe {
@@ -845,11 +845,12 @@ input.www {
 }
 
 .button {
-    padding: 10px 25px 10px 25px;
+    padding: 10px 15px 10px 15px;
     background-color: #fd8300;
     border: 2px solid #fd8300;
     color: #fff;
     border-radius: 25px;
+    font-weight: bold;
 }
 
 input:hover.button {
