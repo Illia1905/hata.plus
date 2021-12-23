@@ -39,7 +39,7 @@ sup {
     font-size: 0.6em;
 }
 
-input,
+.www,
 select,
 textarea {
     box-sizing: border-box;
@@ -692,6 +692,7 @@ h2.row {
 .contact {
     display: block;
     display: flex;
+    margin-bottom: 50px;
 }
 
 .contact p {
@@ -704,6 +705,7 @@ h2.row {
 .h4 {
     margin: 0 0 20px 0;
 }
+
 .mar {
     padding: 10px 0 10px 0;
 }
@@ -849,6 +851,7 @@ input:hover.button {
 }
 
 .form-bottom {
+    margin: -18px 0 0 0;
     display: flex;
     align-items: center;
 }
