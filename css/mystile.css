@@ -800,6 +800,14 @@ h2.row {
     box-sizing: border-box;
 }
 
+input.my-check {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+
+}
+
 .form {
     max-width: 50%;
 }
@@ -860,4 +868,42 @@ input:hover.button {
 
 .form-bottom input {
     margin: 10px;
+}
+.my-check {
+    position: absolute;
+    appearance: none;
+}
+.my-check+label {
+    position: relative;
+    color: #777;
+    padding: 0 30px;
+
+}
+.my-check:checked+label {
+    color: #1f1f56;
+}
+.my-check+label::before,
+.my-check+label::after {
+    content: "";
+    position: absolute;
+}
+.my-check+label::before {
+    left: 0;
+    top: -2px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+.my-check:checked+label::before {
+    border-color: #1f1f56;
+}
+.my-check:checked+label::after {
+    left: 3px;
+    top: 2px;
+    width: 10px;
+    height: 4px;
+    border-left: 2px solid #1f1f56;
+    border-bottom: 2px solid #1f1f56;
+    transform: rotate(-45deg);
 }
