@@ -771,6 +771,10 @@ h2.row {
 
 .form {
     max-width: 50%;
+    height: 290px;
+}
+.form table {
+    min-height: 100%;
 }
 
 .form table th {
@@ -782,9 +786,15 @@ h2.row {
 }
 .navigator {
     display: flex;
+    max-height: 290px;
+    padding-bottom: 45px;
 }
 .gps iframe {
-    max-width: 50%;
+    max-width: 100%;
+
+}
+.gps {
+    padding-right: 30px;
 }
 input.www {
     min-width: 100%;
