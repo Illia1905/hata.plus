@@ -43,13 +43,16 @@ input,
 select,
 textarea {
     box-sizing: border-box;
+    font-size: 13px;
+    line-height: 21px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
 }
 
 textarea {
     width: 100%;
     resize: vertical;
-    min-height: 70px;
-    max-height: 200px;
 }
 
 .wrapper {
@@ -698,6 +701,9 @@ h2.row {
     font-family: "Arial";
 }
 
+.h4 {
+    margin: 0 0 20px 0;
+}
 .mar {
     padding: 10px 0 10px 0;
 }
@@ -792,7 +798,6 @@ h2.row {
 
 .form {
     max-width: 50%;
-    height: 290px;
 }
 
 .form table {
@@ -801,6 +806,7 @@ h2.row {
 
 .form table th {
     min-width: 230px;
+    padding: 3px;
 }
 
 .www {
@@ -808,9 +814,8 @@ h2.row {
 }
 
 .navigator {
-    margin-top: 50px;
+    padding-top: 50px;
     display: flex;
-    max-height: 290px;
     padding-bottom: 45px;
 }
 
