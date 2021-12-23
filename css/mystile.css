@@ -53,6 +53,8 @@ textarea {
 textarea {
     width: 100%;
     resize: vertical;
+    min-height: 85px;
+    max-height: 240px;
 }
 
 .wrapper {
