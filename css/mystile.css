@@ -7,11 +7,21 @@ body {
 }
 
 body a,
-body input,
+.www,
 body textarea,
 body select,
 body label {
     cursor: url('cursor11.cur'), auto;
+}
+
+.www,
+body textarea,
+body select {
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #c5c5d4;
+    border-radius: 3px;
 }
 
 th,
@@ -33,6 +43,13 @@ input,
 select,
 textarea {
     box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 70px;
+    max-height: 200px;
 }
 
 .wrapper {
@@ -702,6 +719,10 @@ h2.row {
     align-items: left;
 }
 
+.mqr {
+    margin-top: 10px;
+}
+
 .phone,
 .post {
     position: relative;
@@ -773,6 +794,7 @@ h2.row {
     max-width: 50%;
     height: 290px;
 }
+
 .form table {
     min-height: 100%;
 }
@@ -781,21 +803,26 @@ h2.row {
     min-width: 230px;
 }
 
-.www{
+.www {
     min-width: 465px;
 }
+
 .navigator {
+    margin-top: 50px;
     display: flex;
     max-height: 290px;
     padding-bottom: 45px;
 }
+
 .gps iframe {
     max-width: 100%;
-
+    border: none;
 }
+
 .gps {
     padding-right: 30px;
 }
+
 input.www {
     min-width: 100%;
 }
