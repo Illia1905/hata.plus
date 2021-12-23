@@ -814,6 +814,7 @@ input.my-check {
 
 .form table {
     min-height: 100%;
+    margin-bottom: 10px;
 }
 
 .form table th {
@@ -845,14 +846,16 @@ input.www {
 }
 
 .button {
-    padding: 10px 15px 10px 15px;
+    padding: 10px 20px 10px 20px;
     background-color: #fd8300;
     border: 2px solid #fd8300;
     color: #fff;
     border-radius: 25px;
     font-weight: bold;
 }
-
+.button p {
+    margin-right: 10px;
+}
 input:hover.button {
     background-color: #fd8300;
     color: #fff;
@@ -877,7 +880,7 @@ input:hover.button {
 .my-check+label {
     position: relative;
     color: #777;
-    padding: 0 30px;
+    padding: 0 30px 0 ;
 
 }
 .my-check:checked+label {
