@@ -846,12 +846,16 @@ input.www {
 }
 
 .button {
+   
     padding: 10px 20px 10px 20px;
     background-color: #fd8300;
     border: 2px solid #fd8300;
     color: #fff;
     border-radius: 25px;
     font-weight: bold;
+}
+input.button {
+    margin-right: 10px;
 }
 .button p {
     margin-right: 10px;
